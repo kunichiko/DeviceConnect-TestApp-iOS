@@ -25,7 +25,8 @@ class FirstViewController: UIViewController {
         self.addressTextField.delegate = self
         
         // WebView
-        self.webView = WKWebView()
+        let webViewConf = WKWebViewConfiguration()
+        self.webView = WKWebView(frame: .zero, configuration: webViewConf)
         self.webView.navigationDelegate = self
         self.webView.uiDelegate = self
         self.webView.allowsBackForwardNavigationGestures = true
@@ -64,11 +65,13 @@ class FirstViewController: UIViewController {
         self.view.addConstraint(bottomConstraint)
         self.view.addConstraint(leadingConstraint)
         self.view.addConstraint(trailingConstraint)
+
+        //
+        self.load(url: URL(string: "http://deviceconnectusers.github.io/manager/#demo"))
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.load(url: URL(string: "http://deviceconnectusers.github.io/demosite/"))
     }
 
     func load(url: URL?) {
@@ -110,8 +113,17 @@ extension FirstViewController : WKNavigationDelegate {
             decisionHandler(.cancel)
             return
         }
-        print("\(url)")
+        print("url: \(url)")
         decisionHandler(.allow)
+    }
+    
+    func webView(_ webView: WKWebView, runJavaScriptAlertPanelWithMessage message: String, initiatedByFrame frame: WKFrameInfo, completionHandler: @escaping () -> Void) {
+        let alertController = UIAlertController(title: message, message: nil, preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: .cancel, handler: { _ in
+            completionHandler()
+        }))
+        self.present(alertController, animated: true) {
+        }
     }
 }
 

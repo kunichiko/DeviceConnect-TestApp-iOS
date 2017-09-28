@@ -7,11 +7,12 @@
 //  http://opensource.org/licenses/mit-license.php
 //
 
+#import <Foundation/Foundation.h>
+
 #define DC_SYNC_START(obj) @synchronized (obj) {
 #define DC_SYNC_END }
 
-#define DCBundle() \
-[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"DConnectSDK_resources" ofType:@"bundle"]]
+NSBundle* DCBundle();
 
 #define DCLocalizedString(bundle, key) \
 [bundle localizedStringForKey:key value:@"" table:nil]
