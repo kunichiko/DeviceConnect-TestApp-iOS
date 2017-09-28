@@ -1,0 +1,16 @@
+PODS:
+  - DeviceConnectHostPlugin (2.1.0):
+    - DeviceConnectSDK
+  - DeviceConnectSDK (2.1.0)
+
+DEPENDENCIES:
+  - DeviceConnectHostPlugin
+  - DeviceConnectSDK
+
+SPEC CHECKSUMS:
+  DeviceConnectHostPlugin: 97e868c617097bb1955b207d051de40964255e45
+  DeviceConnectSDK: 19412c63bfdc284c1691a3ec359983af517e6831
+
+PODFILE CHECKSUM: 0419593645ed9f5f68f8d3aaf4a8273a9524a015
+
+COCOAPODS: 1.3.1

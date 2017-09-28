@@ -1,0 +1,6 @@
+framework module DeviceConnectHostPlugin {
+  umbrella header "DeviceConnectHostPlugin-umbrella.h"
+
+  export *
+  module * { export * }
+}
