@@ -6,6 +6,8 @@ swift_version = '3.0'
 use_frameworks!
 
 target 'DCTestApp' do
-  pod 'DeviceConnectSDK'
+  pod 'DeviceConnectSDK', '= 2.1.1'
   pod 'DeviceConnectHostPlugin'
+
+  pod 'CocoaAsyncSocket'
 end
