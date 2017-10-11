@@ -14,6 +14,8 @@
 		03E2FCB1018ABE76209AC12D4A214D2A /* LocalOAuthConfirmAuthParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D85FB3EEBBBAB961CBF6F82CAE9E3 /* LocalOAuthConfirmAuthParams.m */; };
 		0408A547DD17B8BD87C354F831978428 /* DConnectSDK-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AB32A0A1DB59F0C575D37DE7D8525D /* DConnectSDK-iPad.storyboard */; };
 		043E64F15C3172A53F30E7103031F09F /* LocalOAuthAccessTokenDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FE58E509A809DB2AF4EBFF2066927E /* LocalOAuthAccessTokenDetailViewController.m */; };
+		04EC4692D6C5361CE38686D2EF02C4F1 /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B12CC8EA064A488613CCFABE6FF209E3 /* HTTPResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0555BE37C718ACF53392C1E3878DD0F9 /* HTTPDynamicFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5C4019414B21D860A1D1E7ADAD472E /* HTTPDynamicFileResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		059853ABF601A1CE8723341504A46CF1 /* LocalOAuthConfirmAuthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 421514DF5AD56CCDDC911A192C17D20E /* LocalOAuthConfirmAuthRequest.m */; };
 		06692092B03F51AF874D33BB6BD84510 /* DConnectBooleanParameterSpecBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = D50B4C0CD458CE1169DD1E82969D8C7B /* DConnectBooleanParameterSpecBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0692F220249FAAC1A30A2E0E7F24BFD3 /* DPHostRecorderContext.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAD961132B0502A47D2699D0E6F8529 /* DPHostRecorderContext.m */; };
@@ -28,7 +30,6 @@
 		0A6CE1CA202C5746939AF569F012C040 /* LocalOAuthScopeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D71CD2985B7BB618CB18A1BE54E895B5 /* LocalOAuthScopeUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0ABD41246644C0DC4E3EA49018EF32BF /* DConnectEventBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BA4125BA8B7CB3F339E57F00DA5922 /* DConnectEventBroker.m */; };
 		0BB70F29D40483973E36C554DED0F993 /* DConnectFileCacheController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7F70B77185F371C1A733BC2C6FC7F6 /* DConnectFileCacheController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BFBB0954355BFE31158A21F28128E42 /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB58FA22F1C93DA3EE9DDDF647D22AC /* DDRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C40E3C5405004B813FFA277BC5B29DB /* DPHostTimeoutSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BEFE28F3941B60407F378857F23B27 /* DPHostTimeoutSchedule.m */; };
 		0C45DF81932EDBCA55428C6F6E8C11AF /* DConnectEventSessionTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E235DFD67D1EF719E3083FE2A9CB88DB /* DConnectEventSessionTable.m */; };
 		0CEDA9995343F901DC0502107C96BDA6 /* DPHostCanvasDrawImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0931198E681F73F9BD21707FD041D9D5 /* DPHostCanvasDrawImage.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -44,19 +45,16 @@
 		119763C093CBE7BB2A2C894ACA58EAEC /* DPHostConnectionProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A47DD65A465B79A1215E8B3AEF5855A /* DPHostConnectionProfile.m */; };
 		11A3741A2A47E7067317A46086800746 /* DConnectFileParameterSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DA0EB928575DEFC56171A118302B06 /* DConnectFileParameterSpec.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		127B7F43D6A6F089286A1CEC5ED0A30F /* DConnectFileDescriptorProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C84F46D6F37D6A4362095C2B7A4C9E /* DConnectFileDescriptorProfile.m */; };
-		129C79217B6FB5E9D75C7372986EA73B /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C8DC51A2D74FF65CEED45938DFD1A0 /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12F5C5269C21EEF45A9F20FC16C0A869 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8A378FBC0FB70588333E20D47A9E60A /* Info.plist */; };
 		1306728419FA28AF7A3AA1AF08ECBC9E /* DPHostSettingProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = A57A714609A070C335C9E96B036E4313 /* DPHostSettingProfile.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		134566DA8814B46E4395678F37456AC9 /* DConnectMediaStreamRecordingProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = AE88D788136632877FCDFB844292A460 /* DConnectMediaStreamRecordingProfile.m */; };
 		14683718303271052031A34955E9C0DA /* LocalOAuthProfileDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 792D98ADC9EB9F4AB347C9C41F68B8A5 /* LocalOAuthProfileDao.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		159E72ED7F740D67D705547A87E669FA /* HTTPFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 897AD568A66BEB910FFD4BC6901A4F92 /* HTTPFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15A0B0CF6CA8C5194BE08127181DA382 /* LocalOAuthRedirectionURI.m in Sources */ = {isa = PBXBuildFile; fileRef = 60986574E13C5EA6789C2A28AC9CB7C1 /* LocalOAuthRedirectionURI.m */; };
 		15C70A3D556306D0A536A42BCBE67747 /* DConnectMemoryCacheController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1064AC89C5DF837756953CCAFF8B7100 /* DConnectMemoryCacheController.m */; };
 		165B49068B679B4E5C77225927DEEF00 /* DPHostBatteryProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = E3DFAB5A87874FEFA96A0EB2B3DEA58F /* DPHostBatteryProfile.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1667091FC5088BC9E27A76D9E3D30DD1 /* DConnectFileParameterSpecBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E8CA94F40B81E3EE2DD92C7155354 /* DConnectFileParameterSpecBuilder.m */; };
 		1709D2D7C26D7A8E5A9A101140F368BF /* DConnectManagerServiceDiscoveryProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = D69D146AD9381C5840664DC233E39939 /* DConnectManagerServiceDiscoveryProfile.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		182556319F24BDE4F3A539F40231A5C1 /* DConnectLiteralOrigin.m in Sources */ = {isa = PBXBuildFile; fileRef = E335EFF805F2D664B867AA813785D701 /* DConnectLiteralOrigin.m */; };
-		188F7A3A91CA9B3A81F03304C4466138 /* Route.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F85CB3E755F37AD2787EA84C66652B /* Route.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18BFC410026D27D6411185F7ABA1B128 /* LocalOAuthSampleUser.h in Headers */ = {isa = PBXBuildFile; fileRef = AEAD928C256DF015B516F59352CFC2EA /* LocalOAuthSampleUser.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		18F1651AF106BF027A8108B01533917A /* DConnectApiSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F094BED8A83C4AD66E1B300AE4185D3 /* DConnectApiSpec.m */; };
 		191635ECC47AF4CFD83EF59F517117F7 /* DConnectEditOriginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB9258F7F0AACED6A4BDAAB89DF6951 /* DConnectEditOriginViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -65,7 +63,9 @@
 		1B19D0B8E3D2F2D2C7E40834F26C5742 /* DConnectOriginParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D26E4F166EEA49B84FFA3F60C2BC1D /* DConnectOriginParser.m */; };
 		1B3AB6B238B62D1E15FC24ECCA08D047 /* LocalOAuthAccessTokenScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B346A10578AE7E0E95DE5E5D5F61E55 /* LocalOAuthAccessTokenScope.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1B5F2A3BC149F209E69E60DE59CE273B /* DConnectFileDescriptorProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = D14C32B3F92B29CFDDB28A302F263C83 /* DConnectFileDescriptorProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9BC5F825983A75E1B7755D655B74F4 /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 8102AFAD874BC111E9A1036D34991215 /* HTTPLogging.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1D8B185F85762BEBD12F594BE68B3616 /* DPHostUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F4C5BB1B4A77D31DBD0D3C81904C21 /* DPHostUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1DA41381E44212D1C491A55AF7AE7DCD /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D51F5C6AC60E55DFCF37B8958F30741C /* HTTPAuthenticationRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1DA50F3030E1AD2D56495DE1D07345E4 /* DConnectSpecConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA7E7B233E1D64124CF3D985AE5B1BE /* DConnectSpecConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E220F162809B1C1EC67BFB14259EFEC /* DConnectHttpServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6F9C64746AE08D86ADC85D1F8D1B2 /* DConnectHttpServer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1E827DC50C202C7BEFC46FE5DEABCD89 /* DPHostDeviceOrientationProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7543AA4F54EAFBE8C41B6CC5BFBFC0CF /* DPHostDeviceOrientationProfile.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -75,9 +75,11 @@
 		1FA6FEFA6DBF27761FED5FE884657614 /* DConnectServiceDiscoveryProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BFC57595993D2A4C940B3584F737E4 /* DConnectServiceDiscoveryProfile.m */; };
 		20997705EFF9759389AF325323FCAFFB /* LocalOAuthCheckAccessTokenResult.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E64B89737CF163FAE06E03E8748840 /* LocalOAuthCheckAccessTokenResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2144CA686F347E52EDFB5C27C970C0AE /* close_small_button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 339F42934808C92CAB26D7CE4D3993EE /* close_small_button_normal.png */; };
+		23181B916D7718C7D63C04B2BA591EA9 /* HTTPErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4127E09A22D65F57CB7E10DBC017EAAB /* HTTPErrorResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		23717E77D01786B637B8D9FFC159D198 /* DConnectProfileProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1FC7555DBCAC1329B994C537B66F1D /* DConnectProfileProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		238928178E6F501D8CC3E5C70DE4BB4A /* DConnectSpecErrorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2AE653B61F8CACC9C1CEB05968D618 /* DConnectSpecErrorFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		23FF97486C3491B017F779CA3D63551B /* DPHostCanvasDrawImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9D607F2EB28792D2F7855CAEF30298 /* DPHostCanvasDrawImage.m */; };
+		243B55117B3860603D5BB54231BCDD4A /* GCIPUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D24065315CD96A1435D7E52AF2A2A9 /* GCIPUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		25E3274E909CA7481E37C4ADA7EB4DA1 /* DConnectWebAppOrigin.h in Headers */ = {isa = PBXBuildFile; fileRef = A5704BF1587BCFCEBA289F8B5E7D04D4 /* DConnectWebAppOrigin.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		25FB1E3D7E1C503E330F8E8B7E27C862 /* DConnectPhoneProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BE8396BB74B5F2F1A9900C3F09DBA2 /* DConnectPhoneProfile.m */; };
 		25FD2E64CA9280E2A959516B4F49074C /* DConnectDevicePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2645B7AD3C68F754C6787A5DAFFEC53F /* DConnectDevicePlugin.m */; };
@@ -88,10 +90,12 @@
 		284CF25D835B13AD90C9967D2E8EB144 /* DConnectMessageFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A40AEB143EE1B6A578951DE3A3232847 /* DConnectMessageFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		286B1A2A5D768B9BE4C2FCB20E0BA659 /* DConnectApiEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 43754E40564FEB9BE6809AECC4EEBB33 /* DConnectApiEntity.m */; };
 		293ED017006E0B7FE74F51B4B75EF55C /* DPHostSystemProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 98263DF59E929C0F020E4997BA2F471A /* DPHostSystemProfile.m */; };
+		2B21BC708E40CDEF3C8C8523BCC820A4 /* HTTPResponseProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC05D5279F8640D468D02A2749F8804 /* HTTPResponseProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2B4394C55464E5615FCEC08F23BD98BA /* LocalOAuthClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4473BE772CD08D326531D1B833666E /* LocalOAuthClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2B4B9AC4EEE25E3D91F08B4E4F1AC2A4 /* DConnectWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD5F30AB07F6BB2225A28ADABAB2305 /* DConnectWebSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2BC8C921221A873C452A2A1040107BEA /* LocalOAuthClientDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F913C92448120E8BDB917EEBF413E1C /* LocalOAuthClientDao.m */; };
 		2C86CDC85B5FD98618A0DE0489357B8A /* DConnectEventHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BF0AB63876644F662158FAEF400419 /* DConnectEventHelper.m */; };
+		2C96CD5E16F8DDDF94C79D066941DF9E /* Route.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F85CB3E755F37AD2787EA84C66652B /* Route.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2D39DF11547265FAED8DCA36BF92BA7B /* DConnectProfileSpecJsonParserFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C8721A2079CEEBC6A900C362D5BCF148 /* DConnectProfileSpecJsonParserFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2DAA98C8614A6DED26CE8712531AE1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B2F3389E667D408266337767559D4 /* Foundation.framework */; };
 		2DB99309469BA2D0BAEB382464DC71C5 /* LocalOAuthConfirmAuthParamsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D44BB4B3ACB8D86A99586B96741B /* LocalOAuthConfirmAuthParamsBuilder.m */; };
@@ -99,6 +103,7 @@
 		2EFDAEDD0EF0FD9B9BC8D4C9158068E9 /* LocalOAuthClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AE3D0D94452736EBDDE8C74225CF5C /* LocalOAuthClient.m */; };
 		2F694FAA5443BF708EC1CE1F1E9E5E8F /* DConnectNotificationProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFACBDA11AF4961CCD382CA08EC5E0B /* DConnectNotificationProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F6B4150CF1C725DE6EC0192A1C1921F /* LocalOAuthAuthSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2751DCE3A51BF3016371B58252533D44 /* LocalOAuthAuthSession.m */; };
+		2F88B62137E52359BBAB61EF42851133 /* multipart_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 175BFE2C8A62634162626DCF78E4D90B /* multipart_parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2FA3C34CBDFFFCAE192588957A329C16 /* DPHostTouchView.h in Headers */ = {isa = PBXBuildFile; fileRef = FC84C6587AC35C685E9AEE83BBBA00CB /* DPHostTouchView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		326AD352E4F2A35727D6B7CE168CA7EF /* LocalOAuthUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E315DA010F861E0025D90332DB54720 /* LocalOAuthUtils.m */; };
 		35167CCA1F6331CA97F6A2BD0241C2D8 /* DConnectApiSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 544626295859ED5D1225D2A24E9FF92E /* DConnectApiSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,14 +114,16 @@
 		373EC7460FFA7086F882299BC863D16C /* DConnectSQLiteOpenHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 792F8C9EC8FAA267848C7C32DD95472E /* DConnectSQLiteOpenHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		37F58A2DFA90D93365485A10E85542F7 /* DConnectManagerAuthorizationProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D3781EF7BDF66C4F72EAAA4963F753 /* DConnectManagerAuthorizationProfile.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		37F9EDBE531E8A3EF4EC08DFE5C636C2 /* LocalOAuthClientPackageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 831B2CD10C333796C2EEE136C1FC2B0E /* LocalOAuthClientPackageInfo.m */; };
-		387AAD6EC83AB3C3568160FF01E9D282 /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ABFC4D0B022365002DA0D5909FCC123 /* HTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39476F4FD2E467427F0CE91466113652 /* GCIPUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2511C5EED599CCA243A3228C7F41B35F /* GCIPUtil.m */; };
 		398D6BF06B585EC0EF2A850DBE0C8D7F /* DConnectMediaStreamRecordingProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0A14DFB6552F019849B383739D1F6E /* DConnectMediaStreamRecordingProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A431A1E2F627D22C5BF3953FDD8CB23 /* HTTPDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B14065469C5C5658F7C97FC11C5B80 /* HTTPDataResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3A5D9ACC1FFCF5CAE6854DC132491480 /* DConnectConnectionProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = D401F41D6933951E361461FF90782BA9 /* DConnectConnectionProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A67360ED172359DBA76890A04BE3616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B2F3389E667D408266337767559D4 /* Foundation.framework */; };
 		3A76B989AEFDDA7419BA027FF180B1FD /* DConnectDataSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 698AB01611837231D0D35C97552DA9EB /* DConnectDataSpec.m */; };
+		3A8C11D70A23AECDD773CD3547D3C57C /* MultipartMessageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 53016A1C246D81D260A1AA60022872DC /* MultipartMessageHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3AE4C059DD37D89E30BC9192996A579E /* DConnectLightProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = E490D0EB8A34EA29CD96C65948FDBDDF /* DConnectLightProfile.m */; };
 		3CBA6EEB64137F031833F0F03A06054F /* DPHostDevicePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = C897E0EAB76CD047C7CD85AA66A108FB /* DPHostDevicePlugin.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3D6F159FB35ED26EEA4DF4D1B06CDEA5 /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9FCC21AD04DF361F798593D0AC57E8 /* HTTPMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3DA92D15A1CEF69D17C96941CB5C728B /* HTTPErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C6F739189B302BC46579D4E7CC71F6 /* HTTPErrorResponse.m */; };
 		3DAF99CD2531C7763EEFC780C199F980 /* DConnectHttpServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3562C061276B67100FBB6AB1E363CBFD /* DConnectHttpServer.m */; };
 		3E2199AC1A7F74C5CEC724681F1D5B86 /* DConnectBatteryProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF439EDCCD83737C3241E747D0F4F1 /* DConnectBatteryProfile.m */; };
@@ -131,8 +138,8 @@
 		43CE203CC5F988F1B5C23E76783C930A /* LocalOAuthSampleUserManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA1EA18958FA95FF89303EFA3876130 /* LocalOAuthSampleUserManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		440FE7B9989D0963185853B6B9B1453B /* DConnectKeyEventProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = D9253FBF1DA5F4D72AD904F97890E5FE /* DConnectKeyEventProfile.m */; };
 		443BFFB11665836B25024569E8796F8D /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BB50E1014DC32501BD37EAC0E0E5A /* NSString+Extension.m */; };
+		445B3402C1018AAE9C6824E53E33D7FD /* MultipartMessageHeaderField.h in Headers */ = {isa = PBXBuildFile; fileRef = BADE01A69D9A08C874A70E74D8178CCA /* MultipartMessageHeaderField.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4463BB3D098849190B10277EA4ECB7F0 /* DPHostMediaStreamRecordingProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1BE68C92B4F12CCFFED4ADA10F7F49 /* DPHostMediaStreamRecordingProfile.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4496986B8A35AD534E2C819613ACD97A /* HTTPDynamicFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5C4019414B21D860A1D1E7ADAD472E /* HTTPDynamicFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		450CF594165F87C9B6C047EEB8BE1CC1 /* DConnectKeyEventProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C517CD3BD0E99A85288B3AF476CD006 /* DConnectKeyEventProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4570D96B5475157AD15E4665EF4CA141 /* DConnectConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 38AAC0616FECC19FD19AA19E27C0209A /* DConnectConst.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		45B8EDE63E5D87199BF00F30AF47E2F1 /* DConnectArrayParameterSpecBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C35C9B48BA8FC82E3D213D0EEFFBB1F /* DConnectArrayParameterSpecBuilder.m */; };
@@ -144,7 +151,7 @@
 		489CB35486FC98DE6FD04E08B1213465 /* DConnectEventSessionDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DDA13151FC0A52FFF905B7DE7DD1F7 /* DConnectEventSessionDao.m */; };
 		48BA9BA857889CB4F52C79A0C2F012E5 /* DConnectWhitelistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB8680CB3026E39D7735B2AA28B8ACC /* DConnectWhitelistViewController.m */; };
 		499A11F6EC26D5CAAEEBA5A65473E518 /* close_small_button_focus.png in Resources */ = {isa = PBXBuildFile; fileRef = A475BF1F0F2801848B2CED239BC1D42B /* close_small_button_focus.png */; };
-		4A480F47AB5412E53C9B6D17C180B63B /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9FCC21AD04DF361F798593D0AC57E8 /* HTTPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49C5F614DD46C3FAC2C91BC8A4E0CFFA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A387005EA563AC4570D5177A24552F9C /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4AFE80EAB2A98118B7B0DE219C318EDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15D9E79290D5BEA9BCE2E74542C2C8AD /* InfoPlist.strings */; };
 		4B7065273C2F1778FC828E3628C5AF74 /* DConnectHttpConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA77482529DD9B11BFA5F59C6AD9A6 /* DConnectHttpConnection.m */; };
 		4BA06E9B4F4649D919A0E759D6E88FD9 /* DConnectWhitelistViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CF12C6850841A1F1981FADABC2966946 /* DConnectWhitelistViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -152,8 +159,6 @@
 		4BE039682F0EAA1FD65129B1CBF2D736 /* CipherSignatureProcMD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D94B624CD64CF9CE91F9E36530CE2FE /* CipherSignatureProcMD.m */; };
 		4C6450A2D1B98E3DC2B9B0C829E81937 /* DPHostUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA6E6540B4F4A000F297BC8A29757D6 /* DPHostUtil.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4C65BABB963F29D5BEE51C69A48C6540 /* DConnectVersionName.m in Sources */ = {isa = PBXBuildFile; fileRef = 540B7670947BB5631AFFF364A15A8189 /* DConnectVersionName.m */; };
-		4C8F97AC09F8A7384881A97DE312CB3B /* HTTPRedirectResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B628E985FC9FCF74F653F298327302 /* HTTPRedirectResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C96684230BB8A953CDA5B8216E89689 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A387005EA563AC4570D5177A24552F9C /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D3918C4C0610F63A2510CDDC041CE06 /* DConnectArrayDataSpecBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = D784ECB7CFE5EF02EDCB8ACF6A0350FC /* DConnectArrayDataSpecBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4D7A92E36DD042E6296B7BA5C013FFB9 /* LocalOAuthSQLiteToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D9BA8CB1A341D3EF90010F56620E5CA /* LocalOAuthSQLiteToken.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4D7EF841259310DBD2A78797B2C391BE /* DConnectEventDeviceDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 248F2CFC8ECB54BCA3BDF4D8317E1475 /* DConnectEventDeviceDao.m */; };
@@ -163,7 +168,6 @@
 		510EC638E2F76CDBEEB2323EF8D32635 /* dConnectDeviceHost_resources-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B6813180182DCD6751BB71F03396637 /* dConnectDeviceHost_resources-Info.plist */; };
 		5238601AA0619F0B36C366871CB4EC52 /* DConnectMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A72CD94B2B2DD77B683F9768C03A2D4 /* DConnectMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D55ED63C6D896BEDC19C9F37EE17D5 /* DConnectEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCC34AFA090D2BDE6B02B441EBD21B5 /* DConnectEventManager.m */; };
-		530D8A6F73D057CE7DEA676E6458C144 /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D51F5C6AC60E55DFCF37B8958F30741C /* HTTPAuthenticationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53C266144BD63777F3678ADC4419483D /* LocalOAuthSQLiteClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C1AF018C02E894BB0E77401BE661C0A /* LocalOAuthSQLiteClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5476925C27AF5FFF955AF12538C330E4 /* CoverageExportSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 38867B6217B8408D4A2592F18DD257BA /* CoverageExportSetting.m */; };
 		54C817D7D478DB37B05F96819DC8B830 /* DPHostVibrationProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = EAED01CCA5D2FE5A6C9A539BF2D44B8D /* DPHostVibrationProfile.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -197,8 +201,6 @@
 		628DCA3B5D5495E1EFCBE3075CBD7BC1 /* DConnectStringParameterSpecBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 26848235637DF6B715BF5827B2E1DFC6 /* DConnectStringParameterSpecBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		634ACDF2FA5528E4A21FEA51239A8FF5 /* DPHostUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 338A704585707ABBECF2766DC92496A9 /* DPHostUtils.m */; };
 		637B9AA3301C228589C661CBC035BE62 /* DConnectArrayDataSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5217892699FD29BDF1493DC2347BCB1F /* DConnectArrayDataSpec.m */; };
-		638E9F6EA5F685B8C16658450F0106F5 /* HTTPResponseProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC05D5279F8640D468D02A2749F8804 /* HTTPResponseProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63B625474A0149EC5E6EFC7164A39A31 /* HTTPDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B14065469C5C5658F7C97FC11C5B80 /* HTTPDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6403B0BB4C5E947E22C7413E57AAECB2 /* DConnectDevicePlugin+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BD3811775387962E33A1D9949EEB6 /* DConnectDevicePlugin+Private.m */; };
 		641D2963B31E24329796D98DA2A2D644 /* DConnectSystemProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 396442C4E6D868A7C7E63A8A3FABC900 /* DConnectSystemProfile.m */; };
 		6429C59D45A020F63F28B000EC98FFF2 /* DConnectAvailabilityProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDFD3BADE981F4D5F1FD346A7B3ACB2 /* DConnectAvailabilityProfile.m */; };
@@ -206,7 +208,6 @@
 		65EB63885820B6E665B44D8F084FE82B /* DConnectRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B1223E8B2FA6C142FD43A617F990C8 /* DConnectRequestMessage.m */; };
 		6664F07FAE0FC2E375F42BB462538C85 /* LocalOAuthAccessTokenListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D755A78D39C0925ED68F2C1B90E7861F /* LocalOAuthAccessTokenListViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		66AACD571437C4787B9E771D39E27396 /* DConnectFileDataSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8C176DF97F549C21B4C227F451A056 /* DConnectFileDataSpec.m */; };
-		66FA4D463CC44793F8C5EEF7ECC3DC1E /* MultipartFormDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D88AFEC669F60E10AB0F07436F357BB4 /* MultipartFormDataParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6712DD81F5FD1FD23B338A71293FFB72 /* LocalOAuthScopeDao.h in Headers */ = {isa = PBXBuildFile; fileRef = F183D443D7FD3BC6711EC161373B6E14 /* LocalOAuthScopeDao.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6806C3871F68B5F868DD423C0EDF3797 /* DConnectStringParameterSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = BD98A9D2D3BF3C6A465FD16D191F3820 /* DConnectStringParameterSpec.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		682B63A3953C31A473338E6C132D8576 /* LocalOAuthTypedefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D6FB9A8CBC3DA35724D0FEF48B63F6 /* LocalOAuthTypedefs.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -225,12 +226,13 @@
 		70550C83C92658E15541056B7611E670 /* DPHostLightProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = E28A9FEEF39FE10C9FFACEF770627800 /* DPHostLightProfile.m */; };
 		707F2103F10D06B3E26194797F079558 /* CipherSignatureProc.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE4D01BB75C6D85062FF74020D12182 /* CipherSignatureProc.m */; };
 		70965078B94265ABCDD7D49AA159EE64 /* close_small_button_push.png in Resources */ = {isa = PBXBuildFile; fileRef = 1424F2721665A437DA638362FBF5409C /* close_small_button_push.png */; };
+		71A1E0C58F78193602EAE7689E541ED4 /* HTTPFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 897AD568A66BEB910FFD4BC6901A4F92 /* HTTPFileResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7285292A51D48793A182CF365E5AB23E /* DConnectFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 263E1C3ECDEAFFBF325FEFECCD091BBD /* DConnectFileManager.m */; };
 		72F1E48A0A5F1A34070BE0B54D3224AC /* DConnectBooleanParameterSpecBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2E2044ABAABD2E3DBE096B93245905 /* DConnectBooleanParameterSpecBuilder.m */; };
-		735DD9E416BCBB1F2853FBE9D3CCD601 /* RouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC3A9E66FA5FCF6CCB2E5B8060BE8FB /* RouteResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7360D4647C0B62360DEE0E984A4B9251 /* DConnectSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2878B0DEF4EF844FD47634A9567DEB43 /* DConnectSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7396CB9FA54BEF5AF2A384A3901CDEDD /* NSURLRequest+BodyAndBodyStreamInOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 50613EB3FC6CC2C71F9ECEB42E6D4589 /* NSURLRequest+BodyAndBodyStreamInOne.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		73ACB9A271D92C1D888BDD47C20CA9D3 /* DConnectOriginInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 057100D3F3A4162480564162D5B1A893 /* DConnectOriginInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73B7D6D232C8810A7B1C8506A16F3244 /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 4500A2D56A70BAADF4085321B9B00069 /* DDNumber.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		746630ED4CA3ACCD3ED40C2A0FA1B925 /* DConnectManagerDeliveryProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 32513591DA335C6B308CE49524A468FD /* DConnectManagerDeliveryProfile.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		747B8F9BE12583E486881ABC17489789 /* DPHostTouchProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E4E4664D44754D43BC1A3BA3B6673A /* DPHostTouchProfile.m */; };
 		74C72D2C31B8461ADC63376C82068FA7 /* DConnectBooleanDataSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72970F7D1089753003E04CA7F375F7CC /* DConnectBooleanDataSpec.m */; };
@@ -250,7 +252,6 @@
 		7AEBD1653EA26EF888139BE05821FADF /* DConnectService.h in Headers */ = {isa = PBXBuildFile; fileRef = 248DE0583AACCB91CC3A498F42101EBF /* DConnectService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B50CE03CB1CF6556A9EEC872A31F790 /* DConnectOriginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 612846C94382F20B562A130C2D7A7353 /* DConnectOriginInfo.m */; };
 		7B9EB162726407F7EE6A2227D55FBCAB /* DConnectFileCacheController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EC3DDAAD2947C664BDE2B879AF00B /* DConnectFileCacheController.m */; };
-		7BB4DA2C6D13647D643DD6163EA61158 /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B12CC8EA064A488613CCFABE6FF209E3 /* HTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C01FCCDBE9C74B57FED901F4F00A7E8 /* LocalOAuthScopeDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 2679CED288E2FDBC3D038E6FDEB210A1 /* LocalOAuthScopeDao.m */; };
 		7C276C082943CFD93904C30520DD1D99 /* LocalOAuthClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A92CFAA489A6DE62AFE3BBD87BE5965B /* LocalOAuthClientManager.m */; };
 		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F4F660B9B9FF0D9E379C9D5F860DB8 /* CocoaAsyncSocket-dummy.m */; };
@@ -265,6 +266,7 @@
 		84509EF979AADF1CB76A354341B72638 /* DConnectOriginDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F5B6408572DB4F1B8CCD2FDAE41829 /* DConnectOriginDao.m */; };
 		845F2F18079D58A871117BF21B160DE9 /* DeviceConnectSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B14256E27751E3CD2DD5D3A4C7666 /* DeviceConnectSDK-dummy.m */; };
 		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9050D5A280B1FC9CC251D882C5396F00 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8484573523E7B167EA96DAE0083BB74C /* MultipartFormDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D88AFEC669F60E10AB0F07436F357BB4 /* MultipartFormDataParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		84A3C8DA9AA4E3D5AFE364B5013CE091 /* DPHostReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5436C7473DC885ADEF4FD630630B3E1B /* DPHostReachability.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		84C98B68738AFEA07D5C9809F07C043D /* DConnectApiSpecBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D6A0C696DA5B61585382D805FC967B /* DConnectApiSpecBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		850B71A235C1E99FEC1990C5162A5CC1 /* LocalOAuthDbCacheController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C940524980CFFDEEC866C8F63996C9 /* LocalOAuthDbCacheController.m */; };
@@ -279,6 +281,7 @@
 		8AF1AF5C95FE3EE5F10C89D506CDD12F /* DConnectSwaggerJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB28F55551A41F4F2D09028C73407B9 /* DConnectSwaggerJsonParser.m */; };
 		8C57DF3767F05503FD9548798C10A8AB /* DConnectEventSessionDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F75922C36633F0BEFE826C5B92886E /* DConnectEventSessionDao.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8CCE16284992E7EB2D36D8A96BB0EB4E /* DPHostProximityProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AEDF763A1704FC258B676977DDAB03 /* DPHostProximityProfile.m */; };
+		8D01999927256BB86815913D439F0B03 /* RouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA0F2BDE5F75816E042030E05F2CD93 /* RouteRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8D8BF8A08A6C8A735CF0C33164B255DA /* LocalOAuth2Main.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE501EBD5822872787EB5C69A7F8528 /* LocalOAuth2Main.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8DCA4D01BA45DD96AFC9A96C5D054F3E /* DConnectServiceInformationProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F132D8528135FFBED2349C2033AF33 /* DConnectServiceInformationProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DCB174F4E33130A95175558152BFE15 /* dConnectDeviceHost.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47A132330D8DE9638FED355B5B7DC94 /* dConnectDeviceHost.storyboard */; };
@@ -295,6 +298,7 @@
 		951F78FE48641FAA78ECA3A05BF752F6 /* DConnectEventProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 610DAC1E4C5B0E06F24FA2FCDE0846BE /* DConnectEventProtocol.m */; };
 		9528ED6ECC0C28C0FB6D03414EC944E4 /* DConnectSwaggerJsonParserFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 98547AB05FC1B19897738F628792E0C3 /* DConnectSwaggerJsonParserFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		95DACD2763D8353EDF417392F3BF5D65 /* DConnectServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCC57CACFE015C18D06F8158B10FF3 /* DConnectServiceProvider.m */; };
+		964F5D139FA274F33221B11AF47EED34 /* RoutingHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8640D2A44857004C75B6EC80B1043B54 /* RoutingHTTPServer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		968B01D889E6021578D19B2E18026DE9 /* DConnectServiceDiscoveryProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 762E6E07D797828E2F19508AA3944E85 /* DConnectServiceDiscoveryProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		972D0D6FAE42D5EC55DEF80933B768D8 /* DPHostCanvasDrawObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA333AD2A6BD997CE808B829EC3472C /* DPHostCanvasDrawObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		98D98C456A91134E041FD12CC26B2513 /* DConnectProfileDao.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC3DA55BCCA10CDA47A1A2E6EFB3CB7 /* DConnectProfileDao.m */; };
@@ -316,11 +320,11 @@
 		A153355BB568B3304B17163A87AD93D9 /* DConnectIntegerParameterSpecBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BC7E634E56508EAAFAA042BEF8AF32 /* DConnectIntegerParameterSpecBuilder.m */; };
 		A1F7695413D8FF92A403C76843B45BED /* DConnectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 384D6DCCC84EF3FC67DFBCEF15844857 /* DConnectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A26D6289F7A830E22BA74DBB0715A4AF /* DConnectBooleanParameterSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B694989DABB3A627810D9496EAB87E /* DConnectBooleanParameterSpec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2721905D58028BF0CA9E085497D2E8F /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E6A70CB58C34E0FAA866CEA1EF1C41 /* HTTPAsyncFileResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A3057E39F0366D1DBBB27EF68FAA7FF0 /* DPHostDevicePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A7DEE7FCDE597695F117AAC310C5C5 /* DPHostDevicePlugin.m */; };
 		A310C14842488F6E478D61ADB08A68CC /* LocalOAuth2Settings.h in Headers */ = {isa = PBXBuildFile; fileRef = C276E6A72881FDA05C176818B343BFCA /* LocalOAuth2Settings.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A34A00F9E6EBBB5E4F5A4031880B15FF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1900382657B25C423E109B96E08B6247 /* Localizable.strings */; };
 		A3613CF685A7600026AA3C13B88AC39B /* DPHostDeviceRepeatExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = AB42EDA0B649CEF183C0C10D9BCE6604 /* DPHostDeviceRepeatExecutor.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		A43A177EF7DBE0403C712929ADBCD045 /* GCIPUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D24065315CD96A1435D7E52AF2A2A9 /* GCIPUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A44EF034871B33B0B15FB140DA1FF709 /* DConnectBaseCacheController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86824C46C3C209EBFBB42C1008B0860 /* DConnectBaseCacheController.m */; };
 		A4B7C220F06FFFE32AF2C46C7F33084F /* DPHostPhoneProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E11F89CADF0F558E72EC1D115F91394 /* DPHostPhoneProfile.m */; };
 		A55ADA11D33EA85ECBBEF6AFEE6CE07A /* DConnectTouchProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB5574218065DED0AD877E9340C88F4 /* DConnectTouchProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -333,7 +337,6 @@
 		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF4CD70BD67C08303EE2BC54B9B800 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A883937C5F9442D660E7ED78B07B4B43 /* DConnectSpecErrorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BED05B143E0E364C25A4B6F6423E4E2 /* DConnectSpecErrorFactory.m */; };
 		A9279FB6BE7205C371D5663284065D28 /* DConnectWhitelistUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 44420E0BBC939073BB3147501C749DCD /* DConnectWhitelistUtil.m */; };
-		AB04CB68FFD48C2F3213546112949709 /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C39E9A7E121323BC276B2D36FDBCB00 /* DDData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABD891C493C7FC6975042BD962FA4A22 /* DConnectPluginSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9685DA2A1D407A2C1B65CE62888B72 /* DConnectPluginSpec.m */; };
 		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 571CBCB340170D2391EC7E33B8D14F5D /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD6E53D80EFDB85C5E0E53A8E69E33FD /* DConnectStringDataSpecBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E0B2A37FE1F0EB256DE874004DA4C /* DConnectStringDataSpecBuilder.m */; };
@@ -348,6 +351,7 @@
 		B2D928DCFA2B65C8C9CC4B79B4908C07 /* DConnectProfileProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F209EF861E86C0250C242647F38A7DE /* DConnectProfileProvider.m */; };
 		B2FD984418EA9F3139B0D3F62D6171FA /* DPHostBatteryProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C8EEB6AD558F0C159EEF1F24D6FED8 /* DPHostBatteryProfile.m */; };
 		B4A6BF79A238F6E91E652F3ACD986289 /* DConnectDevicePluginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D11CD4D6792EFF910ECD6D4547D0F6B9 /* DConnectDevicePluginManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4DA7FD17F371D570A948EF8AA73E1BC /* RouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC3A9E66FA5FCF6CCB2E5B8060BE8FB /* RouteResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B4FD3A81A87F5EBC87041A2C5B1506BE /* DConnectPhoneProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF1E34591C9CFDFD71AE9F6DD609265 /* DConnectPhoneProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B519D7EAEEAAF5B82EE281B8AC790DFD /* LocalOAuthClientData.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E7AAF025044F118B9DF51D6B7AFDA2 /* LocalOAuthClientData.m */; };
 		B528F6196B8F433A4DBF184A80929751 /* DConnectMessageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A92C525894757129E9B98C8BE84A51 /* DConnectMessageFactory.m */; };
@@ -359,7 +363,6 @@
 		B72BCF42844E3FE047F7B81819656289 /* DConnectProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4F3656A2ADB810D0F306B0F0F7A194 /* DConnectProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B776B533BE3B6D14F98E87E12ACEE456 /* DConnectMediaPlayerProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 726373F6806678C86C3B8424D8BC15D2 /* DConnectMediaPlayerProfile.m */; };
 		B856929E3D8404C90A8BA51388249671 /* DPHostRecorderContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C13E046B19EBC634206197E3882AAA3B /* DPHostRecorderContext.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B88F867E7C3A4E01999C99655492C422 /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 8102AFAD874BC111E9A1036D34991215 /* HTTPLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8E4799D40CE55B0737796A3EC28B0A6 /* DConnectMultipartParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 373441CC21A98D3B616465388FD86874 /* DConnectMultipartParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B96C42C56032DE33B9CF77406DC71203 /* DConnectConnectionProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CD852432276CD517F593A4D8F45933 /* DConnectConnectionProfile.m */; };
 		B9C1D6801127B226015220306A8D13C3 /* DPHostFileProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8276C2178B6123A509A25E6A82E496EF /* DPHostFileProfile.m */; };
@@ -367,7 +370,6 @@
 		BA854D4C1494A33A431754F9FB677E91 /* LocalOAuthPackageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A00B5515AE4B6875302FD0C68D1C5 /* LocalOAuthPackageInfo.m */; };
 		BAD0FC3177C2E236CC02CDD2C6F14DC5 /* DConnectSQLiteCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0291B8418100D2826C7D4F8E4685B02F /* DConnectSQLiteCursor.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BB1D69A92711076EB8D33ACF16848649 /* DConnectEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A1706181D8C631FD477F5DF53B40C9AB /* DConnectEvent.m */; };
-		BBAA438DB8A1EBCF173B659DC9D6DA08 /* RouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA0F2BDE5F75816E042030E05F2CD93 /* RouteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBFE9A1E09EFBA7C4B13BC67637F221C /* DConnectParameterSpecBaseBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B88D6BD26C6FED0F163C6BD1F40690 /* DConnectParameterSpecBaseBuilder.m */; };
 		BC6E3CB144E41BA053C95A8778FCAC4B /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 549FBCF8201ADCFB022D1E4E7F669A7A /* HTTPMessage.m */; };
 		BCD00D9A1180DDFDFBD8BDA6179B10C8 /* LocalOAuthScope.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA98D67250332A1B7BB82BDB98E649D /* LocalOAuthScope.m */; };
@@ -377,7 +379,6 @@
 		BFB2DF02CF9C98B33320793C4B6FF8F5 /* DConnectProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAFBD6968EFEA7D8EA08E156BFF52A3 /* DConnectProfile.m */; };
 		C11883BE948730FB4983513AD66DD61C /* DPHostUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 574742383AA533F93F314EEBFBA9151E /* DPHostUtil.m */; };
 		C1F08B64EC28CD69E867E43D8B32512F /* DConnectNumberParameterSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDC2D0ED71B3DF41D729FBF58B69616 /* DConnectNumberParameterSpec.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C204E294CDC4353375B02F9FAE4B92F0 /* RoutingConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 566F0B19AC78E474B3EE79C9AFAA2031 /* RoutingConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2367F9BCD154B0A92ACF0CB7F6CABF5 /* DPHostTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D0ADFAC809AAE036B64B5D84FFE9E8 /* DPHostTouchView.m */; };
 		C23D18BDA259B470F877A1D0C51EADB4 /* DeviceConnectHostPlugin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7269EBC1CD6D8AD619D591F84C1054E0 /* DeviceConnectHostPlugin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C29698DDAE16DF774AF92AFB1E31026B /* CipherAuthSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = D40EB250272A364367087194A91E483F /* CipherAuthSignature.m */; };
@@ -395,7 +396,6 @@
 		C6A5CE77D74B66D5CECD7A0E81090F34 /* DConnectEventDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6100E9DF8297234AD37238C0A20E44 /* DConnectEventDao.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C77B21FC1B289F9AB9F618FAE2552414 /* LocalOAuthConfirmAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4136BA35FA20472218876D8751B9C8ED /* LocalOAuthConfirmAuthViewController.m */; };
 		C7C91B794B714685256ECA58AFFC85B0 /* DConnectGeolocationProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EA7F1F641182F2C40AB944C815A3E5 /* DConnectGeolocationProfile.m */; };
-		C86C3F6B20754F0A53725205FD34FA0A /* RoutingHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8640D2A44857004C75B6EC80B1043B54 /* RoutingHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C884509AAC865AAB7FE7E3F08D42B284 /* Pods-DCTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFBCBEF4A0925FEBD38B4F6628CEBC /* Pods-DCTestApp-dummy.m */; };
 		C8BCE52203B3F8962844545C673EA080 /* LocalOAuthDummy.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AF487AAE235E7354363DD9B598C0D0 /* LocalOAuthDummy.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C8FC65E97A9C999CEF6AC13ED0F58507 /* DConnectAttributeDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5548F08CFECDC8CD40969AFD02F1C /* DConnectAttributeDao.m */; };
@@ -432,7 +432,6 @@
 		DA27C2770B745F9B30DD7C3900143120 /* DConnectAvailabilityProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC7827F84835D2B2D5446F4FD05B75C /* DConnectAvailabilityProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA80FB799369A687D52E8694F3FA18BE /* DConnectStringDataSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC05B4DD7C882472717FB378D9795E /* DConnectStringDataSpec.m */; };
 		DA912D4104D571CE013858CFAA6333CA /* LocalOAuthSQLiteProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0E19652AB401A5E9C0B2E27B3C8561 /* LocalOAuthSQLiteProfile.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DAE230A82928F8115FDC0BD5424E3372 /* MultipartMessageHeaderField.h in Headers */ = {isa = PBXBuildFile; fileRef = BADE01A69D9A08C874A70E74D8178CCA /* MultipartMessageHeaderField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDABD2C3FABF50D1FC377E253A7A8448 /* DConnectManagerDeliveryProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 538422EB2A699172515527FFD29D4E7A /* DConnectManagerDeliveryProfile.m */; };
 		DDB7FE2EE08CBB71DFE0B58195FD06C5 /* DConnectOriginDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF7BCBCE2D1F8D43D5EA533548FD89E /* DConnectOriginDao.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DE54D85953E174B523BFD2A20446ECF9 /* DConnectServiceListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 739141CB6DE3C0BB662CABF852AE864F /* DConnectServiceListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -440,17 +439,16 @@
 		DE6F30C42A718444E3AE212144A9450D /* LocalOAuthClientPackageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52497565842B4A76CC1D5D326D53E406 /* LocalOAuthClientPackageInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DE6FAD6CB6BC92AEDDA7950B330B849A /* DConnectBaseCacheController.h in Headers */ = {isa = PBXBuildFile; fileRef = A00170A6C75DAD668E78A62F716A1C59 /* DConnectBaseCacheController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE7DA1836650B7F6613FD81ED87A2EA6 /* LocalOAuthSQLiteToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A60E406C6040EA750ED3B911AB71890C /* LocalOAuthSQLiteToken.m */; };
-		DEA4A0B3098C34A74C27F251AC4A9640 /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 4500A2D56A70BAADF4085321B9B00069 /* DDNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC24A92793F25FB092AC6408D840FD4 /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C8DC51A2D74FF65CEED45938DFD1A0 /* HTTPServer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DF21B54AB90A1E5D53EFAD6FAB88F9D8 /* DConnectProfileSpecBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = FB88F7594C0CDA6087DF5008D61D6C08 /* DConnectProfileSpecBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DF30846E7D050670D41DA2EBFECF4BB9 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D9396282D065EEC89A4EFBB4A17F96D1 /* HTTPServer.m */; };
 		DF5ACDA84EF31A6E5A6F9CDA069746BC /* DConnectSQLiteDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9829DC6417425293499D66241113A3FB /* DConnectSQLiteDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DFB5C518CC31E2694AE5F1A3C833A50B /* LocalOAuthAccessTokenScope.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AC94496BA59FF11D040224ED4D2F51 /* LocalOAuthAccessTokenScope.m */; };
-		E038EDAEC4735F371FC087D734515CA7 /* WebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 415EF072C8423A96680B82788EB2D6EF /* WebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0E77E0B2E31826C6949D903C6540CFA /* DConnectServiceListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D0CF0AC2E0A5B02975FE297FE128 /* DConnectServiceListViewCell.m */; };
 		E190445FEC1C82E635F50366FB21A9C7 /* DConnectSDK-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5C827D884C226CB0343D18A9CC1091 /* DConnectSDK-iPhone.storyboard */; };
 		E1BD6789B678059B9ADF515BD486F6F0 /* DConnectIntegerParameterSpecBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE8422A4622D9193AAD61A73D1CF702 /* DConnectIntegerParameterSpecBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E20F84F51EA921E0D037DAEDD93266D4 /* multipart_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 175BFE2C8A62634162626DCF78E4D90B /* multipart_parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E21938CB8784246775EF078813F19AF4 /* DConnectDeviceDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B18D933E175356AD2756DE36CBD30A /* DConnectDeviceDao.m */; };
+		E367347C66C0CCEC0B1B2399DDE74F21 /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB58FA22F1C93DA3EE9DDDF647D22AC /* DDRange.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E3EA3F390016E2BB48BF12150465B776 /* DConnectMediaPlayerProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 23618CA3D654605B7F44817BD7D03EF3 /* DConnectMediaPlayerProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B722E248CACDE7A4776D3592C1AC703 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E513C68ADEB5A361ED619B2451C31D57 /* DPHostCanvasDrawObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6304584B35E7D6A19F7D2A90E347D2 /* DPHostCanvasDrawObject.m */; };
@@ -459,7 +457,9 @@
 		E642F9C505FE53A2A479FEEA37361324 /* LocalOAuthAccessTokenDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A04C485C4783DC9C4B073C227D299E1 /* LocalOAuthAccessTokenDetailViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E75A5419247D0BD076D3778459FEC632 /* DConnectEventManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 47FB63BAF6FC398723EC4C1BC0318B53 /* DConnectEventManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E77C65070EDD24A536F525F512DE0748 /* DConnectProfileSpecBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7395334505588C2133A6325A6A52A795 /* DConnectProfileSpecBuilder.m */; };
+		E7F53DC9E5C7326044BD0832862AA17B /* WebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 415EF072C8423A96680B82788EB2D6EF /* WebSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E8019ECB1D084394701280B6DB95B005 /* DConnectResponseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 89670287D410A61DE77DFEBCDB7BE05D /* DConnectResponseMessage.m */; };
+		E877FA429B64BC3130205DE953332F06 /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C39E9A7E121323BC276B2D36FDBCB00 /* DDData.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E9314E7573077C3DA072DB6520CBB461 /* DPHostService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D92A2EB18C6645B7E965474A82990 /* DPHostService.m */; };
 		EA1FF96E5F40A3BAB94B1FEFDC06D223 /* LocalOAuthDbCacheController.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D63834CE71C7345420D68D1A3FF619 /* LocalOAuthDbCacheController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EA569A8C6467331C048BCF70C8500EA5 /* DConnectEventHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733BAA47688A95CB03424B7456CA64B /* DConnectEventHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -467,6 +467,7 @@
 		EC57DD190E8572A798C587E343C43FFC /* DConnectResponseMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 292083A9AB19473BB9D633F8F40F91FB /* DConnectResponseMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECB4B3965FB4028CE0695515077A5075 /* DConnectNumberParameterSpecBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 67444024F4933D1EB578E020C128DA67 /* DConnectNumberParameterSpecBuilder.m */; };
 		ECCDB3DE34149601BC5F76A6980322A3 /* DConnectProximityProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6B98F392587CC106AA582BAB8893A0 /* DConnectProximityProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECD7418CA5C9A3B8E7C83B1418F9AEA1 /* RoutingConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 566F0B19AC78E474B3EE79C9AFAA2031 /* RoutingConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EE4F27C24989B300C7A8ECCD427EF8BA /* LocalOAuthSampleUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2351276E813713F04154FFA44B9B6A38 /* LocalOAuthSampleUser.m */; };
 		EF7620FE85A730C31CE098765412F9BC /* DConnectFileProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4CF737F00EC3A40EF283ECDCA7F5E /* DConnectFileProfile.m */; };
 		EFA08225EBE54B30E46552A54606C9D4 /* Pods-DCTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CD7AB2B4740662A6D3D6E851223172 /* Pods-DCTestApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -484,25 +485,24 @@
 		F5388C21B41F95F91EF4F410E76FA637 /* DConnectManagerAuthorizationProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F12A59AB0B72131FC1408D9711D5 /* DConnectManagerAuthorizationProfile.m */; };
 		F5AD98E267FFC8A9A187403AA7FAA079 /* DConnectOrigin.h in Headers */ = {isa = PBXBuildFile; fileRef = 31AD6506D6A00089C02E4D3D28906D07 /* DConnectOrigin.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F61198C8BE8FA0ED0AA65407D54CC276 /* DConnectDeviceDao.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C044AA7E97F1B54641920057711336 /* DConnectDeviceDao.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F656FFA9F6B5D060DA23369478166B77 /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E6A70CB58C34E0FAA866CEA1EF1C41 /* HTTPAsyncFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6B09E5F8DF8CBF06E17A5C4BF648D94 /* DPHostMediaStreamRecordingProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 926C5B36359EC29F64231C90C06B8422 /* DPHostMediaStreamRecordingProfile.m */; };
 		F7079BDFA54FCF44D3B5EDB1753B8534 /* DConnectSwaggerJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = E35C8BF4A4CE9EE7A275A6FAB45E4A00 /* DConnectSwaggerJsonParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F757B31B91B635001F80B36C509DA08D /* DConnectNotificationProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = AC463034B862256823AB348A4458703F /* DConnectNotificationProfile.m */; };
+		F75B15814BDF8560A3A42B34071EB1A1 /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ABFC4D0B022365002DA0D5909FCC123 /* HTTPConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F826331E566226FF93DC8E4ABB97C9BC /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1C268A8CF4DEE7A012FDE50F502C73 /* DDNumber.m */; };
 		F8714F451DC98EC72A6074C0D60E88F3 /* DConnectSettingProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 121CC02A2B838C507C3BC6CA59619497 /* DConnectSettingProfile.m */; };
-		FA1DDB2B25DA42C0CB37D8039BA8E8ED /* HTTPErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4127E09A22D65F57CB7E10DBC017EAAB /* HTTPErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA4C61DE9AE4BD00FF9544D0249308C6 /* DConnectOriginParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 333A71EF76D04A1F67934112690DBD99 /* DConnectOriginParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FA6190C37D56FE2BBC9D09420D432FC2 /* LocalOAuthAccessTokenData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C8960AE923E2F36464884856C7D0B /* LocalOAuthAccessTokenData.m */; };
 		FB96B899F32A263D26583D041B9C7B9E /* DConnectDeviceOrientationProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F25774D8BEC3761EA3E6FE0F887E308 /* DConnectDeviceOrientationProfile.m */; };
 		FC47E832BDCA0779E694EB404608313B /* DConnectDataSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BB7E30D394F6DB2EB3D6658CAA06A1 /* DConnectDataSpec.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FC5C05C507E146B9FE8B7FB5C42DC289 /* DConnectInterfaceDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB93CBB9F0CA30D58FD9D6BDF45E381 /* DConnectInterfaceDao.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCBC3F68B66C20183D5296571371164A /* HTTPRedirectResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B628E985FC9FCF74F653F298327302 /* HTTPRedirectResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FD61355A54A8D6512F0B93CCE04B24F0 /* DConnectApiEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 7918B8566208011851A6E072455C319A /* DConnectApiEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDC5BC75C7C1F1D0CD538E4BF2ECBB90 /* DConnectBooleanParameterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 558105FF4695E6DCA7E11546F1631DB7 /* DConnectBooleanParameterSpec.m */; };
 		FDEF0938CE086B1E9A9C6A55BC97367B /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ED5FD6CBD89C576BDC054D34FC7571 /* DDRange.m */; };
 		FE21B971B7F3B1808EBE768235383872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B2F3389E667D408266337767559D4 /* Foundation.framework */; };
 		FE839AC24F81F870332A5D7F52964B3E /* DPHostCanvasUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A055A048DF5295F354A39D40C4EF24C /* DPHostCanvasUIViewController.m */; };
 		FEEBD6F9BF485FF8BADF084A7A73DA84 /* DConnectSQLiteDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EF1B1AFBD7D184D234ED44FE80BF5D /* DConnectSQLiteDatabase.m */; };
-		FFB4C6D10DDFDB0E8C554BADD95AB7F3 /* MultipartMessageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 53016A1C246D81D260A1AA60022872DC /* MultipartMessageHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFDAC0D1924F563E57001D7345EFC78B /* DConnectCanvasProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = DB668308A1368FA3A9BF34234CF13194 /* DConnectCanvasProfile.m */; };
 /* End PBXBuildFile section */
 
@@ -1973,25 +1973,25 @@
 				BA375CF0CBABD3D571E6D8ACA4168F8D /* DConnectWhitelist.h in Headers */,
 				555730C00D67514720E524B78A8CD752 /* DConnectWhitelistUtil.h in Headers */,
 				4BA06E9B4F4649D919A0E759D6E88FD9 /* DConnectWhitelistViewController.h in Headers */,
-				AB04CB68FFD48C2F3213546112949709 /* DDData.h in Headers */,
-				DEA4A0B3098C34A74C27F251AC4A9640 /* DDNumber.h in Headers */,
-				0BFBB0954355BFE31158A21F28128E42 /* DDRange.h in Headers */,
+				E877FA429B64BC3130205DE953332F06 /* DDData.h in Headers */,
+				73B7D6D232C8810A7B1C8506A16F3244 /* DDNumber.h in Headers */,
+				E367347C66C0CCEC0B1B2399DDE74F21 /* DDRange.h in Headers */,
 				D41FAC258D1851083B9BB27B03556BBB /* DeviceConnectSDK-umbrella.h in Headers */,
-				4C96684230BB8A953CDA5B8216E89689 /* GCDAsyncSocket.h in Headers */,
-				A43A177EF7DBE0403C712929ADBCD045 /* GCIPUtil.h in Headers */,
-				F656FFA9F6B5D060DA23369478166B77 /* HTTPAsyncFileResponse.h in Headers */,
-				530D8A6F73D057CE7DEA676E6458C144 /* HTTPAuthenticationRequest.h in Headers */,
-				387AAD6EC83AB3C3568160FF01E9D282 /* HTTPConnection.h in Headers */,
-				63B625474A0149EC5E6EFC7164A39A31 /* HTTPDataResponse.h in Headers */,
-				4496986B8A35AD534E2C819613ACD97A /* HTTPDynamicFileResponse.h in Headers */,
-				FA1DDB2B25DA42C0CB37D8039BA8E8ED /* HTTPErrorResponse.h in Headers */,
-				159E72ED7F740D67D705547A87E669FA /* HTTPFileResponse.h in Headers */,
-				B88F867E7C3A4E01999C99655492C422 /* HTTPLogging.h in Headers */,
-				4A480F47AB5412E53C9B6D17C180B63B /* HTTPMessage.h in Headers */,
-				4C8F97AC09F8A7384881A97DE312CB3B /* HTTPRedirectResponse.h in Headers */,
-				7BB4DA2C6D13647D643DD6163EA61158 /* HTTPResponse.h in Headers */,
-				638E9F6EA5F685B8C16658450F0106F5 /* HTTPResponseProxy.h in Headers */,
-				129C79217B6FB5E9D75C7372986EA73B /* HTTPServer.h in Headers */,
+				49C5F614DD46C3FAC2C91BC8A4E0CFFA /* GCDAsyncSocket.h in Headers */,
+				243B55117B3860603D5BB54231BCDD4A /* GCIPUtil.h in Headers */,
+				A2721905D58028BF0CA9E085497D2E8F /* HTTPAsyncFileResponse.h in Headers */,
+				1DA41381E44212D1C491A55AF7AE7DCD /* HTTPAuthenticationRequest.h in Headers */,
+				F75B15814BDF8560A3A42B34071EB1A1 /* HTTPConnection.h in Headers */,
+				3A431A1E2F627D22C5BF3953FDD8CB23 /* HTTPDataResponse.h in Headers */,
+				0555BE37C718ACF53392C1E3878DD0F9 /* HTTPDynamicFileResponse.h in Headers */,
+				23181B916D7718C7D63C04B2BA591EA9 /* HTTPErrorResponse.h in Headers */,
+				71A1E0C58F78193602EAE7689E541ED4 /* HTTPFileResponse.h in Headers */,
+				1B9BC5F825983A75E1B7755D655B74F4 /* HTTPLogging.h in Headers */,
+				3D6F159FB35ED26EEA4DF4D1B06CDEA5 /* HTTPMessage.h in Headers */,
+				FCBC3F68B66C20183D5296571371164A /* HTTPRedirectResponse.h in Headers */,
+				04EC4692D6C5361CE38686D2EF02C4F1 /* HTTPResponse.h in Headers */,
+				2B21BC708E40CDEF3C8C8523BCC820A4 /* HTTPResponseProxy.h in Headers */,
+				DEC24A92793F25FB092AC6408D840FD4 /* HTTPServer.h in Headers */,
 				8D8BF8A08A6C8A735CF0C33164B255DA /* LocalOAuth2Main.h in Headers */,
 				A310C14842488F6E478D61ADB08A68CC /* LocalOAuth2Settings.h in Headers */,
 				5FD58BF6F9DE026BBC1C856DBE009886 /* LocalOAuthAccessTokenData.h in Headers */,
@@ -2031,18 +2031,18 @@
 				CD5F124C477E9E1E3AF96A5C8CCE59ED /* LocalOAuthTokenManager.h in Headers */,
 				682B63A3953C31A473338E6C132D8576 /* LocalOAuthTypedefs.h in Headers */,
 				F19CF540D66C8CA2CCA87D95ACFA0C32 /* LocalOAuthUtils.h in Headers */,
-				E20F84F51EA921E0D037DAEDD93266D4 /* multipart_parser.h in Headers */,
-				66FA4D463CC44793F8C5EEF7ECC3DC1E /* MultipartFormDataParser.h in Headers */,
-				FFB4C6D10DDFDB0E8C554BADD95AB7F3 /* MultipartMessageHeader.h in Headers */,
-				DAE230A82928F8115FDC0BD5424E3372 /* MultipartMessageHeaderField.h in Headers */,
+				2F88B62137E52359BBAB61EF42851133 /* multipart_parser.h in Headers */,
+				8484573523E7B167EA96DAE0083BB74C /* MultipartFormDataParser.h in Headers */,
+				3A8C11D70A23AECDD773CD3547D3C57C /* MultipartMessageHeader.h in Headers */,
+				445B3402C1018AAE9C6824E53E33D7FD /* MultipartMessageHeaderField.h in Headers */,
 				505EA9A20A8164DB0E1FBE46DD97A743 /* NSString+Extension.h in Headers */,
 				7396CB9FA54BEF5AF2A384A3901CDEDD /* NSURLRequest+BodyAndBodyStreamInOne.h in Headers */,
-				188F7A3A91CA9B3A81F03304C4466138 /* Route.h in Headers */,
-				BBAA438DB8A1EBCF173B659DC9D6DA08 /* RouteRequest.h in Headers */,
-				735DD9E416BCBB1F2853FBE9D3CCD601 /* RouteResponse.h in Headers */,
-				C204E294CDC4353375B02F9FAE4B92F0 /* RoutingConnection.h in Headers */,
-				C86C3F6B20754F0A53725205FD34FA0A /* RoutingHTTPServer.h in Headers */,
-				E038EDAEC4735F371FC087D734515CA7 /* WebSocket.h in Headers */,
+				2C96CD5E16F8DDDF94C79D066941DF9E /* Route.h in Headers */,
+				8D01999927256BB86815913D439F0B03 /* RouteRequest.h in Headers */,
+				B4DA7FD17F371D570A948EF8AA73E1BC /* RouteResponse.h in Headers */,
+				ECD7418CA5C9A3B8E7C83B1418F9AEA1 /* RoutingConnection.h in Headers */,
+				964F5D139FA274F33221B11AF47EED34 /* RoutingHTTPServer.h in Headers */,
+				E7F53DC9E5C7326044BD0832862AA17B /* WebSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
