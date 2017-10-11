@@ -103,13 +103,19 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CocoaHTTPServer/CocoaHTTPServer.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DeviceConnectHostPlugin/DeviceConnectHostPlugin.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DeviceConnectSDK/DConnectSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RoutingHTTPServer/RoutingHTTPServer.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CocoaHTTPServer/CocoaHTTPServer.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DeviceConnectHostPlugin/DeviceConnectHostPlugin.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DeviceConnectSDK/DConnectSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RoutingHTTPServer/RoutingHTTPServer.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

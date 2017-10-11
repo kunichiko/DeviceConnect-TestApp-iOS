@@ -1,19 +1,38 @@
 PODS:
   - CocoaAsyncSocket (7.6.1)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (3.3.0):
+    - CocoaLumberjack/Default (= 3.3.0)
+    - CocoaLumberjack/Extensions (= 3.3.0)
+  - CocoaLumberjack/Default (3.3.0)
+  - CocoaLumberjack/Extensions (3.3.0):
+    - CocoaLumberjack/Default
   - DeviceConnectHostPlugin (2.1.0):
     - DeviceConnectSDK
-  - DeviceConnectSDK (2.1.1)
+  - DeviceConnectSDK (2.1.2):
+    - CocoaAsyncSocket (~> 7.6.1)
+    - CocoaHTTPServer (~> 2.3)
+    - CocoaLumberjack (~> 3.3.0)
+    - RoutingHTTPServer (~> 1.0.0)
+  - RoutingHTTPServer (1.0.0):
+    - CocoaHTTPServer (~> 2.3)
 
 DEPENDENCIES:
   - CocoaAsyncSocket
+  - CocoaLumberjack
   - DeviceConnectHostPlugin
-  - DeviceConnectSDK (= 2.1.1)
+  - DeviceConnectSDK (= 2.1.2)
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  CocoaHTTPServer: 5624681fc3473d43b18202f635f9b3abb013b530
+  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
   DeviceConnectHostPlugin: 97e868c617097bb1955b207d051de40964255e45
-  DeviceConnectSDK: 66e5717b7ec37ce7d194e89b793e07015da6b335
+  DeviceConnectSDK: 6607b6c22f7ca83994fac88c4a27ffe373df7f0d
+  RoutingHTTPServer: fab8b13e725f26720500c146d43c98c11ebc4d47
 
-PODFILE CHECKSUM: 141bb20c2fd055a25564fea0c148986ece16f16e
+PODFILE CHECKSUM: 7ec99fc9363f350b69eb6fcce4af4de86cb65b69
 
 COCOAPODS: 1.3.1
